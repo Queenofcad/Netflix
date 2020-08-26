@@ -11,7 +11,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'arial', Times, serif;
     color:white;
 }
 
@@ -41,7 +41,7 @@ header nav a:hover{
 /* série principal */
 .serie-principal{
     font-size: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%),url(file:///C:/Users/User/Documents/GitHub/Netflix/images/wynonna.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%),url(file:///C:/Users/User/Documents/GitHub/Netflix/Netflix/images/wynonna.jpg);
     height: 500px;
     background-size: cover;
 
@@ -68,7 +68,7 @@ header nav a:hover{
 
     padding: 15px 30px;
     margin-right: 15px;
-    font-size: 12px;
+    font-size: 14px;
 
     cursor: pointer;
     transition: .3s ease all;
@@ -81,4 +81,18 @@ header nav a:hover{
 
 .serie-principal .botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.serie-principal .container{
+    width: 70%;
+}
+
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
